@@ -37,6 +37,7 @@ namespace TelloSharp
             Console.WriteLine("Appuyez sur Return pour sortir.");
             Console.ReadLine();
             drone.Dispose();
+            Console.WriteLine("test");
         }
 
         private static int MenuPage()
